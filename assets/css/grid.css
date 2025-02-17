@@ -1,0 +1,25 @@
+/*!
+ * Сетка (Grid).
+ *
+ * Расширение "Службы".
+ * Модуль "Конфигурация".
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+/* Заливка заднего фона сетки (см. идент. viewManager) */
+#gm-config-services-grid .x-grid-view {
+    background: url("../images/watermark.svg") no-repeat calc(100% - 25px) calc(100% - 20px);
+    background-size: 100px;
+}
+
+
+/**
+ * Столбцы сетки.
+ */
+/* Значок "Служба имеет свой конфигуратор" */
+.gm-config-services__icon-config {
+    background-image: url("../images/icon-config.svg");
+}
